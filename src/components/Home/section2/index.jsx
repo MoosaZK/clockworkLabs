@@ -13,7 +13,7 @@ export default function Section2() {
       <motion.div
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.1 }}
+        viewport={{ once: true, amount: 0.5 }}
         variants={variants}
         transition={{ duration: 1, ease: "easeOut" }}
         className="flex flex-col items-center justify-center py-20 text-center"
@@ -33,7 +33,7 @@ export default function Section2() {
       <motion.div 
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.1 }}
+        viewport={{ once: true, amount: 0.5 }}
         variants={variants}
         transition={{ duration: 1, ease: "easeOut" }} className="flex items-center gap-10">
         <div className="w-1/2">
@@ -61,7 +61,7 @@ export default function Section2() {
       <motion.div 
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: true, amount: 0.1 }}
+        viewport={{ once: true, amount: 0.5 }}
         variants={variants}
         transition={{ duration: 1, ease: "easeOut" }} className="flex items-center gap-10 mt-10">
         <div className="w-1/2 aspect-square ">

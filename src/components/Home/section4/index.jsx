@@ -25,7 +25,7 @@ export default function Section4() {
     <motion.section
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, amount: 0.1 }}
+      viewport={{ once: true, amount: 0.5 }}
       variants={variants}
       transition={{ duration: 1, ease: "easeOut" }}
       className="container mx-auto my-20"
